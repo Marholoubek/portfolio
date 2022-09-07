@@ -1,0 +1,249 @@
+<% layout('layout/boilerplate') %>
+<%- include("./partials/navbar") %>
+<main class="container">
+
+
+    <section class="mt-5 pt-5 mt-md-0 pt-md-0">
+
+
+        <div class="row mt-md-5 pt-md-5">
+            <div class="col-12 col-md-7 text-white">
+                <div class="gsap">
+                    <p class="my-0">&#60;developer class="fullStack"&#62;</p>
+                    <h1 class="my-0 ms-4">Martin <br> Holoubek</h1>
+                    <p class="my-0">&#60;/developer&#62;</p>
+                </div>
+                <div class="gsap">
+                    <p class="my-0">&#60;about&#62;</p>
+                    <div class="ms-4 my-2 d-none d-md-inline-block" style="min-height: 2.5rem;">
+                        <div id="text"></div>
+                        <div id="cursor"></div>
+                    </div>
+                    <h3 class="ms-4 mt-2 d-md-none">I build an amazing experience</h3>
+                    <p class="my-0 ">&#60;/about&#62;</p>
+                </div>
+                <div class="gsap">
+                    <p class="my-0 ">&#60;button&#62;</p>
+                    <button class=" ms-4 my-3 btn myBtn text-white" id="btnContact2">let's talk</button>
+
+                    <p class="my-0 ">&#60;/button&#62;</p>
+                </div>
+                <div class="gsap">
+                    <p class="my-0">&#60;links&#62;</p>
+                    <%- include("./partials/links") %>
+                    <p class="my-0">&#60;/links&#62;</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="d-flex justify-content-end">
+            <div id="pointerDiv"><a id="pointerLink"><img id="pointer" class="mt-auto" src="/assets/icons/pointer.svg"
+                                                          width="80" height="70" alt="pointer"></a></div>
+        </div>
+
+
+    </section>
+
+
+    <section1>
+        <section class="d-flex align-items-center mt-3 mt-md-1">
+
+            <div>
+                <div class="row align-self-start">
+                    <div id="aboutMeTrigger" class="d-flex justify-content-center align-items-center text-white">
+                        <h3 class="pageHeading" id="aboutMe">About Me</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-8 text-white">
+                        <div id="aboutMe" class="">
+                            <p class="my-0">&#60;about&#62;</p>
+                            <p class="my-0 ms-4"><span
+                                        style="font-weight: 600;">Hello there, my name is Martin!</span><br><br>
+                                I don't define myself by the work I've done. I define myself by the work I want to do.
+                                Skills can be taught, personality is inherent. I prefer to keep learning, challenging
+                                myself
+                                and do interesting things that matter.<br>
+                                Originally, I'm from Prague, currently a university student based in Copenhagen with
+                                Computer Science major, and I
+                                work as a freelancer developing web and mobile apps. Also, highly focused on personal
+                                projects such as Stampit and GetCoffee.<br><br>
+                                HTML/CSS/JS, with Node.js as a backend is my option for web development.<br>
+                                Dart and Flutter are my friends for making mobile apps alive.<br>
+                                I also use: PostgreSQL, Mongo DB, Firebase, Passport, Express, EJS, Adobe, Git, GitHub,
+                                Bootstrap and much more.<br>
+                                My university studies are focused on C# development. Building .NET Core applications.
+                                Also, it's the project management and test driven development is taught with huge
+                                importance.<br>
+                                And these are languages I talk: C, C#, JavaScript, Dart, Python.<br>
+                                <br><span style="font-weight: 600;"> Don't hesitate to get in touch with
+                                    me</span>
+
+                            </p>
+                            <p class="my-0">&#60;/about&#62;</p>
+                        </div>
+                        <!-- <div id="aboutMe" class="">
+                            <p class="my-0 ">&#60;button&#62;</p>
+                            <div class="ms-4 my-3"><a class="myBtn">there is more</a></div>
+                            <p class="my-0 ">&#60;/button&#62;</p>
+                        </div> -->
+                    </div>
+
+                    <div class="d-none d-md-block col-12 col-md-4 text-white">
+                        <img id="aboutMeLogo" src="/assets/icons/logo.svg" alt="logo">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </section1>
+
+    <section2>
+    </section2>
+    <section id="servicesSection" class="d-flex align-items-center mt-3 mt-md-1">
+        <div>
+            <div class="row align-self-start">
+                <div id="servicesTrigger" class="d-flex justify-content-center align-items-center text-white">
+                    <h3 class="pageHeading" id="services">Services</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-8 text-white">
+                    <div id="services" class="">
+                        <p class="my-0">&#60;skills&#62;</p>
+                        <p class="my-0 ms-4">All projects are somehow different, but I'm always trying to find the best
+                            way
+                            how to deliver the best possible result. All starts with proper preparation of all
+                            requirements and
+                            good communication.
+                        </p>
+                        <p class="my-0">&#60;/skills&#62;</p>
+                    </div>
+                </div>
+
+            </div>
+            <div id="serv1" class="row d-block d-md-flex align-items-center text-white mt-3">
+                <div class="col-12 col-md-8">
+                    <h3>Mobile apps</h3>
+                    <p>Google came with amazing framework called Flutter. With help of language Dart, you are able to
+                        develop cross-platform mobile apps from one single codebase. You rule over every pixel on the
+                        screen
+                        and everything can be achieved, or faked enough to look real. With Android and Apple developer
+                        license, every app can be tested before publishing to try to eliminate all bugs on all
+                        devices. My favourites published projects on both app stores are <a href="https://stampit-cards.web.app">Stampit</a> and GetCoffee. Check them out.
+
+                    </p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <img src="/assets/ilustrations/coder.svg" height="300" width="300" alt="coder">
+                </div>
+
+            </div>
+
+            <div id="serv2" class="row d-block d-md-flex align-items-center text-white mt-3">
+                <div class="d-none d-md-block col-12 col-md-4">
+                    <img src="/assets/ilustrations/security.svg" height="300" width="300" alt="coder">
+                </div>
+                <div class="col-12 col-md-8">
+                    <h3>Web Apps</h3>
+                    <p>UI/UX is usually achieved with help of Bootstrap 5, and animations with GSAP library (parallax
+                        effect, text sliding...). Node.js backend
+                        with all NPM packages can solve many requirements of every app. As SQL database, PostgreSQL and
+                        Sequelize makes strong duo for complex web apps. NoSQL MongoDB and mongoose is clever and
+                        easy-to-use
+                        solution for not that complex database. Same with Firebase. <a href="/web">Look at some work
+                            I've done in this area!</a>
+                    </p>
+                </div>
+
+            </div>
+            <div id="serv3" class="row d-block d-md-flex align-items-center text-white mt-3">
+                <div class="col-12 col-md-8">
+                    <h3>REST</h3>
+                    <p>As my university is highly focused on C# development, REST API, DevOps are demanded. .NET Core is
+                        one of the most efficient solution for calling API and having flexibility over everything what's
+                        happening, with confidence of delivering secure solution</p>
+                </div>
+                <div class="d-none d-md-block col-12 col-md-4">
+                    <img src="/assets/ilustrations/design.svg" height="300" width="300" alt="coder">
+                </div>
+
+            </div>
+
+            <div id="serv4" class="row d-block d-md-flex align-items-center text-white mt-3">
+                <div class="d-none d-md-block col-12 col-md-4">
+                    <img src="/assets/ilustrations/brackets.svg" height="300" width="300" alt="coder">
+                </div>
+                <div class="col-12 col-md-8">
+                    <h3>Learning never ends</h3>
+                    <p>As I feel like young driven developer, I'm always learning new things. I'm trying no to get stuck
+                        at tutorial hell, by always building projects from things I learned. My priorities change with
+                        current demand, but on the top of the list is currently the Blockchain Development, React,
+                        TypeScript, and Swift for native iOS development.</p>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section3>
+    </section3>
+    <section id="conTac" class="d-flex align-items-center mt-3 mt-md-1">
+
+        <div>
+            <div class="row align-self-start">
+                <div id="contactTrigger" class="d-flex justify-content-center align-items-center text-white">
+                    <h3 class="pageHeading" id="contact">Contact</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-8 text-white">
+                    <div id="contact" class="">
+                        <p class="my-0">&#60;contact&#62;</p>
+                        <p class="my-0 ms-4">Feel free to leave me any kind of message. Your project ideas as well as
+                            questions. I'll respond as soon as possible. If you use WhatsApp for example, you can use my
+                            number to contact me there.
+                        <p>
+                        <p class="my-0">&#60;/contact&#62;</p>
+                    </div>
+                    <div id="contact" class="mt-5">
+                        <p class="my-0 ">&#60;phoneNumber&#62;</p>
+                        <h5 class="my-0 ms-4" style="font-weight: 600;">+420 604 557 648 (CZ)</h5>
+                        <h5 class="my-0 ms-4" style="font-weight: 600;">+45 55 23 51 35 (DK)</h5>
+
+                        <p class="my-0 ">&#60;/phoneNumber&#62;</p>
+                    </div>
+                    <div id="contact" class="">
+                        <p class="my-0 ">&#60;email&#62;</p>
+                        <h5 class="my-0 ms-4" style="font-weight: 600;">marholoubek@gmail.com</h5>
+                        <p class="my-0 ">&#60;/email&#62;</p>
+                    </div>
+                    <div id="contact" class="">
+                        <p class="my-0 ">&#60;bank&#62;</p>
+                        <h5 class="my-0 ms-4">2947130173/0800</h5>
+                        <h5 class="my-0 ms-4">CZ81 0800 0000 0029 4713 0173</h5>
+                        <p class="my-0 ">&#60;/bank&#62;</p>
+                    </div>
+                    <div id="contact" class="">
+                        <p class="my-0 ">&#60;bitcoin&#62;</p>
+                        <h5 class="my-0 ms-4">bc1qqesvpncxjpfc5957ak3ysyfc946lxp4xtfg733</h5>
+                        <p class="my-0 ">&#60;/bitcoin&#62;</p>
+                    </div>
+                </div>
+
+                <div class="d-none d-md-block col-12 col-md-4 text-white">
+                    <img id="contactLogo" src="/assets/ilustrations/contact.svg" height="500" width="500" alt="logo">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section4>
+    </section4>
+
+</main>
+<%- include("./partials/footer") %>
+
+<script src="/javascripts/liveTyping.js"></script>
+

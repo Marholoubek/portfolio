@@ -1,0 +1,32 @@
+<nav  data-scroll data-scroll-sticky data-scroll-target=".scrollContainer" id="navBar" style="position: fixed;"
+    class=" navbar-expand-lg navbar-primary bg-light navbar-inverse bg-inverse fixed-top">
+    <div class="container navbar my-0 py-2">
+        <div class="container-fluid d-flex justify-content-between">
+            <div>
+                <a class="navbar-brand align-self-start" href="/"><img class="brand" src="/assets/icons/logo.svg"
+                        alt="Logo" width="50" height="40" class="d-inline-block align-text-top"></a>
+
+            </div>
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <%- include("../partials/navIcon.ejs") -%>
+            </button>
+
+            <div class="collapse navbar-collapse flex-grow-0 " id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <button class="btn nav-link custom_nav text-white" aria-current="page"
+                        id="btnHome">&#60;home&#62;</button>
+                    <button class="btn nav-link custom_nav text-white" id="btnAbout">&#60;about&#62;</button>
+                    <button class="btn nav-link custom_nav text-white" id="btnServices">&#60;skills&#62;</button>
+                </div>
+
+            </div>
+
+            <div class="collapse navbar-collapse flex-grow-0" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <button class="btn nav-link custom_nav text-white" id="btnContact">let's talk</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
